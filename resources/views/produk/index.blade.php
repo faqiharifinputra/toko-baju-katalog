@@ -16,7 +16,7 @@
     @if (session('error'))
         <div class="alert alert-danger">{{ session('error') }}</div>
     @endif
-<h1>Halo</h1>
+
     {{-- KATALOG PRODUK --}}
     <div class="row">
         @forelse ($produk as $item)
