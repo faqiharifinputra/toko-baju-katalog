@@ -7,6 +7,12 @@ use App\Http\Controllers\ProdukWebController;
 use App\Http\Controllers\BeliController;
 use App\Http\Controllers\CartController;
 
+
+Route::view('/kategori', 'pages.kategori')->name('kategori');
+Route::view('/tentang', 'pages.tentang')->name('tentang');
+Route::view('/kontak', 'pages.kontak')->name('kontak');
+
+
 Route::get('/cart/add/{id}', [CartController::class, 'add'])->name('cart.add');
 Route::get('/cart/clear', [CartController::class, 'clear'])->name('cart.clear');
 
