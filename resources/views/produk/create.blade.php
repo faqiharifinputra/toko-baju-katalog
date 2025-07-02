@@ -27,5 +27,6 @@
         </div>
         <button type="submit" class="btn btn-success">Simpan</button>
         <a href="/" class="btn btn-secondary">Batal</a>
+        <h1> Halo Ini dari backend</h1>
     </form>
 @endsection

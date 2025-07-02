@@ -69,7 +69,7 @@ class ProdukController extends Controller
     {
         $produk = Produk::find($id);
         if (!$produk) {
-            return response()->json(['message' => 'Produk tidak ditemukan'], 404);
+            return response()->json(['message' => '<h1> Halo Ini dari backend</h1>'], 404);
         }
 
         $produk->delete();
